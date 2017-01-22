@@ -65,6 +65,11 @@ export default class AMap extends Component {
         AMapManager.searchPoiByCenterCoordinate(params) //传null为默认参数配置
     }
 
+    reGeocodeQuery(params) {
+            AMapManager.reGeocodeQuery(params) //传null为默认参数配置
+    }
+
+
     setCenterCoordinate(coordinate) {
         //console.log('findNodeHandle => ')
         //console.log(findNodeHandle)
